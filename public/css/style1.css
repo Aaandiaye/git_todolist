@@ -1,0 +1,60 @@
+/* Style général pour le corps de la page */
+body {
+    /* Définir l'image de fond pour la page */
+    background-image: url('../images/PLANIFY1.png'); /* Assurez-vous que le chemin est correct */
+    /* Couvrir tout l'espace disponible avec l'image de fond */
+    background-size: cover;
+    /* Centrer l'image de fond */
+    background-position: center;
+    /* Définir la hauteur de la page sur toute la hauteur de la fenêtre du navigateur */
+    height: 100vh;
+}
+
+/* Style pour le conteneur des boutons */
+.button-container {
+    /* Centrer le contenu à l'intérieur du conteneur (utilisé avec flexbox) */
+    justify-content: center;
+    /* Positionner le conteneur au-dessus des autres éléments grâce à un z-index élevé */
+    z-index: 2;
+    /* Utiliser flexbox pour aligner les éléments enfants */
+    display: flex;
+    /* Organiser les éléments enfants en colonne */
+    flex-direction: column;
+    /* Centrer les éléments enfants horizontalement */
+    align-items: center;
+    /* Définir le fond du conteneur avec une couleur blanche semi-transparente */
+    background: rgba(255, 255, 255, 0.7); /* Fond blanc semi-transparent pour le cadre */
+    /* Ajouter un espace intérieur au conteneur */
+    padding: 30px;
+    /* Définir la largeur du conteneur pour qu'il occupe 100% de la largeur de l'écran */
+    width: 100%; /* Largeur du cadre en pourcentage de la largeur de l'écran */
+    /* Définir la hauteur du conteneur pour qu'il s'adapte automatiquement au contenu */
+    height: 100%; /* Hauteur automatique pour s'adapter au contenu */
+}
+
+/* Style pour les liens dans le conteneur des boutons */
+.button-container a {
+    /* Ajouter un espace autour de chaque bouton */
+    margin: 10px;
+    /* Ajouter un espace intérieur au bouton */
+    padding: 15px 30px;
+    /* Définir la taille de la police du texte du bouton */
+    font-size: 18px;
+    /* Mettre le texte en gras */
+    font-weight: bold;
+    /* Supprimer le soulignement du texte du bouton */
+    text-decoration: none;
+    /* Définir la couleur du texte du bouton */
+    color: #333; /* Couleur du texte */
+    /* Définir la couleur de fond du bouton */
+    background-color: #e0e0e0; /* Gris clair pour les boutons */
+    /* Arrondir les coins du bouton */
+    border-radius: 5px;
+}
+
+/* Style pour les boutons au survol */
+.button-container a:hover {
+    /* Changer la couleur de fond du bouton lorsqu'il est survolé */
+    background-color: darkgrey; /* Gris foncé pour le survol */
+    color: white;
+}

@@ -1,0 +1,148 @@
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem; /* Taille plus petite pour mieux s'intégrer dans la navbar */
+    color: #333; /* Gris foncé pour le texte */
+    font-weight: 500; /* Poids de police modéré */
+    background-color: #fff; /* Fond blanc */
+    padding: 5px 10px; /* Espacement interne réduit */
+    border-radius: 3px; /* Coins légèrement arrondis */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet subtil */
+}
+
+.planify-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem; /* Ajuste la taille du texte selon le besoin */
+    color: #333; /* Gris foncé pour le texte */
+    font-weight: 500; /* Poids de police modéré */
+    background-color: #f8f9fa; /* Fond blanc */
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet subtil */
+    text-align: center; /* Centre le texte */
+    margin-bottom: 20px; /* Espacement inférieur */
+}
+
+.planify-subtitle {
+    font-family: 'Arial', sans-serif; /* Police différente pour créer un contraste */
+    font-size: 1.25rem; /* Taille légèrement plus petite que le titre */
+    color: #666; /* Gris moyen pour une meilleure lisibilité */
+    text-align: center; /* Centrer le texte pour une présentation uniforme */
+    margin-top: 0; /* Réduire l'espacement supérieur */
+    margin-bottom: 20px; /* Espacement inférieur pour séparer du contenu suivant */
+}
+
+
+.section-blue {
+    background-color: #E0E0E0; /* Votre couleur de fond bleue */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.section-white {
+    background-color: #F5F5F5; /* Votre couleur de fond blanche */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.page-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #E0E0E0; /* Couleur de fond pour le pied de page */
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem; /* Ajuste la taille du texte selon le besoin */
+    color: #333; /* Gris foncé pour le texte */
+    font-weight: 500; /* Poids de police modéré */
+    background-color: #f8f9fa; /* Fond blanc */
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet subtil */
+    text-align: center; /* Centre le texte */
+    margin-bottom: 20px; /* Espacement inférieur */
+    padding: 20px; /* Espace intérieur autour du contenu */
+    margin-left: auto; /* Centrer le contenu */
+    margin-right: auto; /* Centrer le contenu */
+    max-width: 1200px; /* Largeur maximale pour maintenir une bonne lisibilité */
+}
+
+.about-subtitle {
+    font-family: 'Arial', sans-serif; /* Police différente pour le texte sous-titre */
+    font-size: 1.25rem; /* Taille légèrement plus petite que le titre */
+    color: #666; /* Gris moyen pour le texte */
+    text-align: center; /* Centre le texte */
+    margin-top: 0; /* Réduit l'espacement supérieur */
+    margin-bottom: 20px; /* Espacement inférieur pour séparer du contenu suivant */
+}
+
+.nav-link {
+    color: #333; /* Couleur du texte du lien */
+    font-weight: 500; /* Poids de la police pour une meilleure visibilité */
+}
+
+.nav-link:hover {
+    color: #fff; /* Couleur du texte au survol (blanc) */
+    background-color: #333; /* Fond sombre au survol pour un contraste */
+    border-radius: 4px; /* Coins arrondis pour un effet doux */
+    padding: 4px 8px; /* Espacement intérieur pour le fond */
+}
+
+.nav-link.active {
+    color: #000; /* Couleur pour le lien actif */
+    font-weight: bold; /* Gras pour le lien actif */
+}
+
+.modal-dialog {
+    max-width: 90%; /* Ajuste selon tes besoins */
+}
+
+/* Assure-toi que le calendrier utilise toute la largeur disponible dans la modal */
+#calendar {
+    width: 100%;
+    height: 600px; /* Ajuste la hauteur selon tes besoins */
+}
+
+.priority-cell {
+    font-weight: bold;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+}
+
+.btn-custom {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#cancel-btn{
+    background-color: #ff0000;
+    border-color: white;
+}
+#cancel-btn:hover{
+    background-color: #ee6c6c;
+}
+
+
+
+
+
+
