@@ -172,14 +172,3 @@ class TachesController extends Controller
 }
 
 
-
-/*index() : Récupère et affiche la liste des tâches avec des options de tri, en comptant et filtrant les tâches en fonction de leur statut (terminée, en attente) et de leur échéance.
-create() : Affiche le formulaire pour créer une nouvelle tâche.
-store(Request $request) : Valide les données du formulaire de création, enregistre une nouvelle tâche dans la base de données, et redirige vers la liste des tâches.
-edit($id) : Affiche le formulaire d'édition pour une tâche spécifique.
-update(Taches $tache, Request $request) : Valide les données du formulaire d'édition, met à jour la tâche correspondante, et redirige vers la liste des tâches avec un message de succès.
-destroy(Taches $tache) : Supprime une tâche spécifique et redirige vers la liste des tâches avec un message de succès.
-toggleCompleted(Taches $tache) : Alterne le statut de complétion d'une tâche et enregistre la date de complétion ou réinitialise cette date si la tâche est réactivée.
-terminees() : Affiche la liste des tâches terminées, triées par date de complétion.
-createWithDate($date = null) : Affiche le formulaire de création d'une tâche avec une date pré-définie.
-show($id) : Affiche les détails d'une tâche spécifique.*/
